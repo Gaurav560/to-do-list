@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color:chocolate; /* Light blue background for a vibrant look */
+  margin: 0;
+  padding: 0;
+}
+
+.main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #E3F2FD;
+}
+
+.center_div {
+  width: 90%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+}
+
+h1 {
+  color: #0D47A1; /* Deep blue for contrast */
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+input[type="text"] {
+  width: calc(100% - 70px);
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #FFC107; /* Bright yellow border */
+  border-radius: 8px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color:yellow; /* Deep orange focus */
+}
+
+
+
+button:hover {
+  background-color:green;
+}
+
+
+
+
+ol {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background-color: #FFFDE7; /* Very light yellow for list items */
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #0D47A1; /* Deep blue text for readability */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  display: flex; /* Make the li a flex container */
+  justify-content: space-between; /* Align children to start and end */
+  align-items: center; /* Center children vertically */
+}
+
+button {
+  margin-left: 10px; /* Adjust as needed or remove if not necessary */
+  cursor: pointer;
+  background-color:black; /* Red */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 13px;
+ 
+}
+
+
+li:before {
+  content: "•";
+  color:green; /* Deep orange for bullet points */
+  font-size: 24px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  /* Responsive adjustments */
+}
+
+@media (max-width: 480px) {
+  /* Further responsive adjustments */
+}
